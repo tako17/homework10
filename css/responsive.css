@@ -27,6 +27,11 @@
   .section2 .left {
     width: 90%;
   }
+  .containers{
+    padding-left: 25px;
+    padding-right: 25px;
+
+  }
 }
 
 @media only screen and (max-width: 800px) {
