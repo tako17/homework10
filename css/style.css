@@ -1,0 +1,157 @@
+/* basic */
+body {
+  font-family: "Poppins", sans-serif;
+}
+.center {
+  max-width: 1070px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* ------------------------------------------- */
+/* header */
+.section1-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 51px;
+}
+
+.section1-nav {
+  max-width: 345px;
+  width: 100%;
+}
+.section1-nav-ul {
+  display: flex;
+  justify-content: space-between;
+}
+.section1-nav-ul a {
+  display: inline-block;
+  width: 100%;
+  font-size: 12px;
+  line-height: 18px;
+  color: #d9f0ff;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.burger {
+  display: none;
+  color: white;
+  font-size: 30px;
+  line-height: 37px;
+}
+.burger:hover {
+  cursor: pointer;
+}
+
+/* ----------------------------------------------------- */
+/* section-1 */
+
+.section1 {
+  background-image: linear-gradient(#0000fd3f, #0000fd13), url(../img/cover.png);
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+.color {
+  background-color: #0000fd;
+  /* width: 100%;
+    height: 100; */
+}
+
+.section1-main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.section1-main h2 {
+  color: #ffffff;
+  font-size: 100px;
+  line-height: 120px;
+  white-space: nowrap;
+}
+
+/* section2 */
+.section2 {
+  width: 100%;
+  display: flex;
+}
+
+.section2 .left,
+.section2 .right {
+  height: 601px;
+  width: 50%;
+}
+
+.section2 .right {
+  background-image: url(../img/building.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.section2 .left {
+  display: flex;
+
+  flex-direction: column;
+  padding-top: 90px;
+}
+.center2 {
+  max-width: 447px;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.section2 .left h2 {
+  max-width: 468px;
+  width: 100%;
+  line-height: 60px;
+  font-size: 50px;
+  margin-bottom: 24px;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+}
+
+.section2 .left p {
+  line-height: 25px;
+  font-size: 16px;
+  color: #707070;
+  max-width: 480px;
+  width: 100%;
+  font-weight: 400;
+}
+
+.button a {
+  background-color: #325dff;
+
+  width: 100%;
+  height: 100%;
+  border-radius: 36px;
+  text-align: center;
+  line-height: 72px;
+  font-size: 14px;
+  font-family: "Lato", sans-serif;
+  display: inline-block;
+  letter-spacing: 3px;
+  color: white;
+  font-weight: bold;
+}
+
+.button {
+  background-color: #325dff;
+  max-width: 307px;
+  width: 100%;
+  height: 72px;
+  border-radius: 36px;
+  text-align: center;
+  margin-top: 50px;
+  /* transform: translate(-25% ,0); */
+  /* align-self: flex-start; */
+}

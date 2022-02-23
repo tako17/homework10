@@ -1,0 +1,74 @@
+@media only screen and (max-width: 1130px) {
+  .center {
+    padding: 51px 15px 0px;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .right {
+    display: none;
+  }
+  .section2 {
+    display: inline-block;
+    background-image: linear-gradient(#0d0d2e8a, rgba(56, 73, 112, 0.116)),
+      url(../img/building.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .left {
+    margin: 0 auto;
+  }
+
+  .section2 .left p {
+    color: white;
+    font-size: 20px;
+  }
+  .section2 .left {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .section1-main h2 {
+    font-size: 60px;
+  }
+  .section2 .left {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .burger {
+    display: block;
+  }
+
+  .section1-nav {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .section1-main h2 {
+    font-size: 40px;
+  }
+
+  .section2 .left h2 {
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: bold;
+  }
+
+  .button {
+    background-color: #325dff;
+    max-width: 250px;
+    width: 100%;
+    height: 60px;
+  }
+  .button a {
+    background-color: #325dff;
+
+    line-height: 60px;
+    font-size: 10px;
+  }
+}
