@@ -156,10 +156,9 @@ body {
   /* align-self: flex-start; */
 }
 
-
 /* section3 */
 
-.section3{
+.section3 {
   padding-top: 76px;
   background-color: #cecece27;
   display: flex;
@@ -167,24 +166,23 @@ body {
   flex-direction: column;
   align-items: center;
 }
-.text-section3{
+.text-section3 {
   text-align: center;
   max-width: 771px;
   width: 100%;
   margin-bottom: 64px;
 }
-.section3 h2{
-line-height: 42px;
-font-size: 35px;
-margin-bottom: 9px;
-text-align: center;
+.section3 h2 {
+  line-height: 42px;
+  font-size: 35px;
+  margin-bottom: 9px;
+  text-align: center;
 }
-.text-section3 p{
-
+.text-section3 p {
   line-height: 25px;
   font-size: 16px;
 }
-.containers{
+.containers {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -192,62 +190,56 @@ text-align: center;
   padding-left: 55px;
   padding-right: 55px;
   margin-bottom: 94px;
-
-
 }
 
-.container{
- max-width: 400px;
- width: 100%;
- height: 374px;
- display: flex;
- background-color: white;
-  justify-content:center;
+.container {
+  max-width: 400px;
+  width: 100%;
+  height: 374px;
+  display: flex;
+  background-color: white;
+  justify-content: center;
   align-items: center;
   flex-direction: column;
 
-text-align: center;
-border: 0.5px solid #CECECE;
-margin-bottom: 25px;
-color: #707070;
+  text-align: center;
+  border: 0.5px solid #cecece;
+  margin-bottom: 25px;
+  color: #707070;
 }
 
-.container h3{
- line-height: 22px;
- font-size: 18px;
- font-family: "Lato", sans-serif;
- margin-top: 27px;
- margin-bottom: 9px;
-
+.container h3 {
+  line-height: 22px;
+  font-size: 18px;
+  font-family: "Lato", sans-serif;
+  margin-top: 27px;
+  margin-bottom: 9px;
 }
 
-.container p{
-
+.container p {
   line-height: 25px;
   font-size: 16px;
   max-width: 251px;
   width: 100%;
-  
 }
 
-.icon{
+.icon {
   position: relative;
-  background-color:#325DFF;
-font-size: 25px;
-border-radius: 44px;
-color: white;
-width: 88px;
-height: 88px;
+  background-color: #325dff;
+  font-size: 25px;
+  border-radius: 44px;
+  color: white;
+  width: 88px;
+  height: 88px;
 }
 
-.fa-gear{
-position: absolute;
-top: 50%;
-transform:translate(-50%,-50%) ;
-
+.fa-gear {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
-.container:focus,.container:hover{
-
+.container:focus,
+.container:hover {
   color: #292626;
 }
